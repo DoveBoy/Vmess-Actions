@@ -3,7 +3,7 @@ name: 自动采集
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '0 * * * *'
   watch:
     types: [started]
     
@@ -39,12 +39,7 @@ jobs:
       run: |                 
          git config --local user.email "393366046@qq.com"
          git config --local user.name "DoveBoy"
-         git add subscribe/vmess.txt
-         git add subscribe/ss.txt
-         git add subscribe/ssr.txt
-         git add subscribe/trojan.txt
-         git add subscribe/clash.yml
-         git add subscribe/clash-pro.yml
+         git add --all
          git commit -m "更新订阅链接"
     - name: 推送更改
       uses:  ad-m/github-push-action@master

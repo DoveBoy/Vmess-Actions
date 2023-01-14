@@ -16,33 +16,8 @@ def main(event, context):
     utils.initLog('log.txt')
     utils.clearLog()
     savePoint(
-        'https://sspool.herokuapp.com/clash/proxies?nc=CN,HK,TW&speed=30&type=vmess', 'vmess.txt')
+        'http://39.106.12.141:8081/clash/proxies?type=all', 'clash.yaml')
 
-    savePoint(
-        'https://sspool.herokuapp.com/clash/proxies?nc=CN,HK,TW&speed=30&type=trojan', 'trojan.txt')
-
-    savePoint(
-        'https://sspool.herokuapp.com/clash/proxies?nc=CN,HK,TW&speed=30&type=ssr', 'ssr.txt')
-
-    savePoint(
-        'https://sspool.herokuapp.com/clash/proxies?nc=CN,HK,TW&speed=100&type=ss', 'ss.txt')
-
-#    savePoint(
-#        'https://subsc.ednovas.xyz/sub?target=clash&url=https://raw.githubusercontent.com/ldir92664/Vmess-Actions/main/subscribe/vmess.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&expand=true&new_name=true', 'clash.yml')
-
-#    savePoint(
-#        'https://suo.yt/RvwZNEH', 'clash.yml')
-
-#    savePoint(
-#        'https://suc.bihai.ml/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Fldir92664%2FVmess-Actions%2Fmain%2Fsubscribe%2Fvmess.txt%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fldir92664%2FVmess-Actions%2Fmain%2Fsubscribe%2Ftrojan.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini', 'clash.yml')
-
-    savePoint(
-        'https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D30%26type%3Dtrojan%2Cvmess%2Cssr&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini', 'clash.yml')
-
-    savePoint(
-        'https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D200%26type%3Dtrojan%2Cvmess%2Cssr%2Css&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini', 'clash-pro.yml')
-
-    
     # 获取文章地址
 
 
